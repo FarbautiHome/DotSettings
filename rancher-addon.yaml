@@ -32,8 +32,8 @@ spec:
             repository: "rancher/k3s"
     sync:
       toHost:
-        ingresses:
-          enabled: false
+        # ingresses:
+          # enabled: true
     experimental:
       deploy:
         vcluster:
